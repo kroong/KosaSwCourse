@@ -1,0 +1,39 @@
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+
+.fullscreen{
+	display:flex;
+	flex-direction:column;
+	height:100vh;	
+}
+.top{
+	text-align:center;
+	background-color:lightgrey;
+}
+.middle{
+	display:flex;
+	text-align:center;
+	flex:1;
+	}
+.left{
+	width:100px;
+	
+	background-color:grey;
+}
+.center{
+	flex:1;
+	text-align:center;
+	background-color:white;
+}
+.right{
+	width:100px;
+	text-align:center;
+	background-color:grey;
+}
+.bottom{
+	text-align:center;
+	background-color:lightgrey;
+}
